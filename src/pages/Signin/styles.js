@@ -10,7 +10,7 @@ export const Container = styled.div`
 `;
 
 export const Content = styled.div`
-  gap: 10px;
+  gap: 15px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,24 +18,24 @@ export const Content = styled.div`
   width: 100%;
   box-shadow: 0 1px 2px #0003;
   background-color: white;
-  max-width: 240px;
+  max-width: 350px;
   padding: 20px;
   border-radius: 5px;
 `;
 
 export const Label = styled.label`
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 600;
   color: #676767;
 `;
 
 export const LabelSignup = styled.label`
-  font-size: 10px;
+  font-size: 16px;
   color: #676767;
 `;
 
 export const labelError = styled.label`
-  font-size: 10px;
+  font-size: 14px;
   color: red;
 `;
 
